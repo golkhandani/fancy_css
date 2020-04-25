@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Bad+Script");
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: "Bad Script", cursive;
+}
+
+.container {
+  display: flex;
+  background-color: black;
+  position: relative;
+  height: 100%;
+}
+
+.neon {
+  width: fit-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.neon h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 4em;
+}
+
+.neon h1 span {
+  display: table-cell;
+  margin: 0;
+  padding: 0 12px;
+  color: #111;
+}
+
+.neon h1 span:nth-child(1) {
+  animation: animate 3s 0.1s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(2) {
+  animation: animate 3s 0.3s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(3) {
+  animation: animate 3s 0.5s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(4) {
+  animation: animate 3s 0.7s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(5) {
+  animation: animate 3s 0.9s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(6) {
+  animation: animate 3s 1.1s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(7) {
+  animation: animate 3s 1.3s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(8) {
+  animation: animate 3s 1.5s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(9) {
+  animation: animate 3s 1.7s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(10) {
+  animation: animate 3s 1.9s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+.neon h1 span:nth-child(11) {
+  animation: animate 3s 2.1s linear infinite, animate2 3s 2.5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    color: #fff;
+    text-shadow: 0 0 10px #4070a7, 0 0 20px #4070a7, 0 0 40px #4070a7, 0 0 80px #4070a7, 0 0 120px #4070a7, 0 0 200px #4070a7, 0 0 300px #4070a7;
+  }
+  5%,
+  95% {
+    color: #2f2f2f;
+    text-shadow: none;
+  }
+}

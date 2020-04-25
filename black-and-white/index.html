@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <div class="pointer"></div>
+        <h1>Black and white</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nesciunt a iste ipsa, blanditiis
+            velit aperiam sed, quisquam provident expedita et aliquam deleniti pariatur! Fugiat laborum aliquam quos
+            dolores illo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nesciunt a iste ipsa, blanditiis
+            velit aperiam sed, quisquam provident expedita et aliquam deleniti pariatur! Fugiat laborum aliquam quos
+            dolores illo!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nesciunt a iste ipsa, blanditiis
+            velit aperiam sed, quisquam provident expedita et aliquam deleniti pariatur! Fugiat laborum aliquam quos
+            dolores illo!
+
+        </p>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).mousemove((e) => {
+            $('.pointer').css({
+                left: e.pageX,
+                top: e.pageY
+            })
+        })
+    </script>
+</body>
+
+</html>
